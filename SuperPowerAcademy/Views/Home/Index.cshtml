@@ -1,0 +1,15 @@
+﻿@using SuperPowerAcademy.Models
+@model SuperPower
+@{
+    ViewData["Title"] = "Home Page";
+}
+<meta http-equiv="refresh" content="10"> 
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <label>Heroes Power is @Model.HeroesPower</label><br />
+    <label>Villains Power is @Model.VillainsPower</label>
+    <hr />
+    <label>Total Power is @(Model.HeroesPower+Model.VillainsPower)</label>
+    <hr />
+   
+</div>
